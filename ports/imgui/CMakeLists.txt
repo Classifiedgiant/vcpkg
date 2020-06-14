@@ -6,12 +6,14 @@ set(CMAKE_DEBUG_POSTFIX d)
 set(IMGUI_INCLUDES_PUBLIC
     imgui.h
     imconfig.h
-)
-
-set(IMGUI_INCLUDES_PRIVATE
     imgui_internal.h
     imstb_textedit.h
 )
+
+#set(IMGUI_INCLUDES_PRIVATE
+#    imgui_internal.h
+#    imstb_textedit.h
+#)
 
 set(IMGUI_SOURCES
     imgui.cpp
